@@ -1,0 +1,175 @@
+@import url('http://fonts.cdnfonts.com/css/brandon-grotesque-regular');
+#principal{
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	margin: 10px auto;
+	font-family: 'brandon-grotesque-regular';
+	margin-top: 100px;
+}
+#publicaciones{
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+	float: left;
+}
+
+.post{
+	width: 95%;
+	height: auto;
+	overflow: hidden;
+	padding: 7px;
+	background: #fdfdfd;
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color: #0489B1;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px #ccc;
+	margin-bottom: 55px;
+}
+
+.post:hover{
+	border: 2px solid rgb(26, 175, 191);
+
+}
+
+.enlace-post{
+	text-decoration: none;
+}
+
+#publicaciones a .titulo-post{
+	color: #6e6e6e;
+	font-size: 22px;
+
+}
+
+#publicaciones a .titulo-post:hover{
+	color: rgb(26, 175, 191);
+}
+
+#publicaciones .img-post{
+	width: 250px;
+	height: 150px;
+	float: left;
+	margin: 7px 7px 7px 0px;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+#publicaciones .datos-publicaciones{
+	color: #0489B1;
+}
+
+#publicaciones .leer-mas{
+	background: rgb(26, 175, 191);
+	color: white;
+	border: 0px;
+	padding: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#publicaciones .leer-mas:hover{
+	background: gray;
+}
+
+#publicaciones .parrafo-post{
+	font-size: 16px;
+	color: black;
+	padding: 15px;
+	text-align: justify;
+}
+
+#publicaciones .num-comentarios{
+	background: gray;
+	color: white;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 5px;
+	margin-left: 30px;
+}
+
+#publicaciones .num-comentarios:hover{
+	background: rgb(26, 175, 191);
+}
+
+#paginacion{
+	text-align: center;
+	font-size: 25px;
+	padding: 20px;
+}
+
+#publicaciones .enlace-paginacion{
+	text-decoration: none;
+	color: rgb(26, 175, 191);
+	margin-bottom: 50px;
+}
+
+#publicaciones .enlace-paginacion:hover{
+	text-decoration: underline;
+}
+
+#sidebar{
+	float: right;
+	width: 28%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#buscar, #categorias, #ultimos-post{
+	border-radius: 10px;
+	width: 98%;
+	border: 1px solid #ccc;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+#buscar input[type="text"]{
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 5px #ccc inset;
+	padding: 10px 4px;
+	border-radius: 10px;
+	width: 70%;
+	margin-left: 4px;
+	margin-bottom: 5px;
+}
+
+#buscar .boton{
+	border: 0px;
+	color: white;
+	background: rgb(26, 175, 191);
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.encabezado-sidebar{
+	width: 100%;
+	height: 35px;
+	background: rgb(26, 175, 191);
+	text-align: center;
+	color: white;
+	font-size: 19px;
+	border-radius: 2px;
+	margin-top: 0px;
+	padding: 5px;
+	font-family: ClementePDak;
+}
+
+.enlace-sidebar{
+	width: 100%;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 5px;
+	color: gray;
+}
+
+.enlace-sidebar:hover{
+	background: rgb(26, 175, 191);
+	color: black;
+}
